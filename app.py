@@ -27,7 +27,7 @@ if st.button("Generate Response"):
     if prompt:
         with st.spinner("Gemini is thinking..."):
             response = client.models.generate_content(
-                model="gemini-2.0-flash-lite",
+                model="gemini-3.5-flash-lite",
                 contents=prompt
             )
 
